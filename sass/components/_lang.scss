@@ -1,0 +1,51 @@
+.lang {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 12px 0;
+
+  &-box {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 70px;
+    max-height: 22px;
+    overflow: hidden;
+    padding: 5px 15px 16px;
+    background-color: $primary;
+    border-radius: 0 0 6px 6px;
+    transition: 0.3s max-height;
+  }
+
+  &-select {
+    &:checked {
+      & + .lang-box {
+        max-height: 120px;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 12px;
+    font-weight: 500;
+    color: $white;
+  }
+
+  &-open {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    color: $white;
+
+    &:before {
+      font-family: 'icomoon' !important;
+      line-height: 1;
+      font-size: 12px;
+      content: '\e900';
+    }
+  }
+}

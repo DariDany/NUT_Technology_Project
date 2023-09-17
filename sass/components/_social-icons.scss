@@ -1,0 +1,46 @@
+.social {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 24px;
+
+  &-link {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+
+    &::after {
+      font-family: 'icomoon' !important;
+      line-height: 1;
+      font-size: 32px;
+    }
+  }
+
+  &--viber {
+    &::after {
+      content: '\e90c';
+    }
+  }
+
+  &--instagram {
+    &::after {
+      content: '\e907';
+    }
+  }
+
+  &--youtube {
+    &::after {
+      content: '\e90d';
+    }
+  }
+
+  &--facebook {
+    &::after {
+      content: '\e905';
+    }
+  }
+}

@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../../fonts/Metropolis/Metropolis.eot');
+  src: url('../../fonts/Metropolis/Metropolis.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/Metropolis/Metropolis.otf') format('otf'),
+    url('../../fonts/Metropolis/Metropolis.svg#Metropolis') format('svg'),
+    url('../../fonts/Metropolis/Metropolis.ttf') format('truetype'),
+    url('../../fonts/Metropolis/Metropolis.woff') format('woff'),
+    url('../../fonts/Metropolis/Metropolis.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../../fonts/Metropolis/Metropolismedium.eot');
+  src: url('../../fonts/Metropolis/Metropolismedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/Metropolis/Metropolismedium.otf') format('otf'),
+    url('../../fonts/Metropolis/Metropolismedium.svg#Metropolismedium')
+      format('svg'),
+    url('../../fonts/Metropolis/Metropolismedium.ttf') format('truetype'),
+    url('../../fonts/Metropolis/Metropolismedium.woff') format('woff'),
+    url('../../fonts/Metropolis/Metropolismedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../../fonts/Metropolis/Metropolissemibold.eot');
+  src: url('../../fonts/Metropolis/Metropolissemibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/Metropolis/Metropolissemibold.otf') format('otf'),
+    url('../../fonts/Metropolis/Metropolissemibold.svg#Metropolissemibold')
+      format('svg'),
+    url('../../fonts/Metropolis/Metropolissemibold.ttf') format('truetype'),
+    url('../../fonts/Metropolis/Metropolissemibold.woff') format('woff'),
+    url('../../fonts/Metropolis/Metropolissemibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../../fonts/Metropolis/Metropolisbold.eot');
+  src: url('../../fonts/Metropolis/Metropolisbold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/Metropolis/Metropolisbold.otf') format('otf'),
+    url('../../fonts/Metropolis/Metropolisbold.svg#Metropolisbold')
+      format('svg'),
+    url('../../fonts/Metropolis/Metropolisbold.ttf') format('truetype'),
+    url('../../fonts/Metropolis/Metropolisbold.woff') format('woff'),
+    url('../../fonts/Metropolis/Metropolisbold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Icomoon';
+  src: url('../../fonts/icomoon/icomoon.eot?djp6be');
+  src: url('../../fonts/icomoon/icomoon.eot?djp6be#iefix')
+      format('embedded-opentype'),
+    url('../../fonts/icomoon/icomoon.ttf?djp6be') format('truetype'),
+    url('../../fonts/icomoon/icomoon.woff?djp6be') format('woff'),
+    url('../../fonts/icomoon/icomoon.svg?djp6be#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  font-family: $Metropolis;
+  background-color: $white;
+}
+
+::selection {
+  background-color: $primary;
+  color: $white;
+}
+
+input {
+  outline: none;
+  box-shadow: none;
+
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+}

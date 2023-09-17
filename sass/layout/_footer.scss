@@ -1,0 +1,36 @@
+.footer {
+  background-color: $primary;
+  padding: 60px 0 15px;
+
+  &-top {
+    margin-bottom: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
+
+  &-bottom {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    align-items: center;
+    gap: 0 20px;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    color: $white;
+    text-align: right;
+  }
+}

@@ -1,0 +1,50 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+
+  &--primary {
+    background-color: $primary;
+  }
+
+  &--secondary {
+    background-color: $primary;
+  }
+
+  &--search {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    &:before {
+      font-family: 'icomoon' !important;
+      line-height: 1;
+      font-size: 12px;
+      content: '\e909';
+    }
+  }
+
+  &--cart {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    &:before {
+      font-family: 'icomoon' !important;
+      line-height: 1;
+      font-size: 12px;
+      content: '\e902';
+    }
+  }
+}

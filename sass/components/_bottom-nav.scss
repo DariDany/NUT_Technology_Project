@@ -1,0 +1,19 @@
+.bottom-nav {
+  &__link {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    color: rgba($white, 0.8);
+    transition: 0.3s color;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    &:hover,
+    &:focus {
+      color: rgba($white, 1);
+    }
+  }
+}
